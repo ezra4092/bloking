@@ -1,4 +1,4 @@
-<?php include '/xampp/htdocs/Blocking_Okt/17Okt/config.php'; ?>
+<?php include '../config.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
