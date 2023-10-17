@@ -1,6 +1,6 @@
 <?php
 session_start();
-$koneksi = new mysqli('localhost', 'root', '', 'myapp_ezra') or die(mysqli_error($koneksi));
+$koneksi = new mysqli('localhost', 'root', '', 'database') or die(mysqli_error($koneksi));
 
 if (isset($_POST['login'])) {
     $username = htmlspecialchars($_POST['username']);
